@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Movie Studio</title>
+
+    <link rel="shortcut icon" href="./images/Movies Icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div div class="container px-5 mt-4">
+            <a href="#"><img src="./images/My Movie Studio Logo 2.png" class="img-fluid img-navbar" alt="My Movie Studio Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-filter-right"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Character">Seu Personagem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Studio">O Estúdio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Team">Equipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-1 container-bg1">
+        <h1>Monte seu próprio estúdio de cinema</h1>
+        <h4 class="my-4">Em My Movie Studio, você é a estrela por trás das câmeras.</h4>
+        <p class="pt-5">My Movie Studio é um jogo de simulação em que você controla um produtor de cinema que gerencia seu próprio estúdio. Seu objetivo é produzir filmes e melhorar seu estúdio para torná-lo no maior estúdio de cinema de todos.</p>
+    </div>
+
+    <div class="container-1 container-red d-flex flex-column" id="About">
+        <div class="pb-5">
+            <h1>Sobre</h1>
+        </div>
+        <div id="carouselCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner carousel-about">
+                <div class="carousel-item active">
+                    <img src="./images/My Movie Studio Exemplo 1.png" class="d-block w-75" alt="Produção de filmes">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Produza seus próprios filmes</h4>
+                        <p>Contrate atores e diretores e faça seus próprios filmes.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/My Movie Studio Exemplo 2.png" class="d-block w-75" alt="Estúdios">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Melhore seu estúdio</h4>
+                        <p>Aprimore seus lotes ou compre novos para produzir mais filmes.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/My Movie Studio Exemplo 3.png" class="d-block w-75" alt="Lançamento do filme">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Lance seus filmes no cinema</h4>
+                        <p>Veja as avaliações dos seus filmes e como eles se saíram na bilheteria.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/My Movie Studio Exemplo 4.png" class="d-block w-75" alt="Ranking">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Suba no ranking mundial</h4>
+                        <p>Torne o seu estúdio no maior de todos os tempos.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container-1 container-yellow d-flex" id="Character">
+        <div id="carousel" class="carousel slide">
+            <div class="carousel-inner carousel-character">
+                <div class="carousel-item active">
+                    <img src="./images/Personagem homem parado.png" class="d-block w-75" alt="Personagem homem">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Personagem mulher parada.png" class="d-block w-75" alt="Personagem mulher">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="flex-column">
+            <h1 class="ms-auto">Seu personagem</h1>
+            <p>Após juntar dinheiro suficiente para sair do seu antigo emprego e comprar um lote, ele vai em busca de seu sonho de ser um grande produtor de cinema.</p>
+        </div>
+    </div>
+    
+    <div class="container-1 container-gray d-flex" id="Studio">
+        <div class="flex-column">
+            <img src="./images/Tela de Estúdios Demo.png" class="w-75" alt="Tela de Estúdios">
+            <h1>Seleção de estúdios</h1>
+            <p>Selecione e customize os seus lotes.</p>
+        </div>
+        <div class="flex-column">
+            <img src="./images/Tela de Produção Demo.png" class="w-75" alt="Tela de Produção">
+            <h1>Dentro do estúdio</h1>
+            <p>É aqui onde você produz os seus filmes.</p>
+        </div>
+    </div>
+
+    <div class="container-1 container-bg2 d-flex" id="Team">
+        <img src="./images/image 7.png" class="ps-5" alt="">
+        <div class="flex-column">
+            <h1>A Equipe</h1>
+            <p class="pt-5">Henrique e Tomás Araujo Moreira são irmãos que adoram videogames e estudam na FIAP, e fizeram esse projeto como parte do Challenge de 2025.</p>
+            <a href="https://www.linkedin.com/in/henrique-moreira-82553a369/">Linke</a><a href="https://www.linkedin.com/in/tom%C3%A1s-moreira-314548369/">din</a>
+        </div>
+    </div>
+
+    <div class="card d-flex flex-row">
+        <div class="flex-column">
+            <img src="./images/My Movie Studio Logo 2.png" alt="My Movie Studio Logo">
+            <p><a href="#">Voltar para o topo</a></p>
+        </div>
+        <div class="email flex-column ms-auto">
+            <p>Emails</p>
+            <p>RM51627@fiap.com.br</p>
+            <p>RM51633@fiap.com.br</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
