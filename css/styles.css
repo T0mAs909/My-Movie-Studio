@@ -112,6 +112,8 @@ body{
 .container-gray{
     background-color: var(--color-gray);
     color: var(--color-white);
+    justify-items: center;
+    align-items: center;
 }
 
 .container-bg2{
