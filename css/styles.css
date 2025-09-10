@@ -1,7 +1,9 @@
 :root{
     --color-black: #000000; 
     --color-white: #ffffff;
-    --color-caption: #ff0000;
+    --color-caption-1: #00f7ff;
+    --color-caption-2: #ff0000;
+    --color-caption-3: #ffff00;
     --color-red: #610000;
     --color-yellow: #ffbb00;
     --color-gray: #B1B6B1;
@@ -90,8 +92,20 @@ body{
     padding-left: 25%;
 }
 
-.carousel-about h4, .carousel-about p{
-    color: var(--color-caption);
+.carousel-caption-1{
+    color: var(--color-white);
+}
+
+.carousel-caption-2{
+    color: var(--color-caption-1);
+}
+
+.carousel-caption-3{
+    color: var(--color-caption-2);
+}
+
+.carousel-caption-4{
+    color: var(--color-caption-3);
 }
 
 .container-yellow{
